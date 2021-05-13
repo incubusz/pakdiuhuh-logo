@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pakdiuhuh - Logo Designer</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/aa86347756.js" crossorigin="anonymous"></script>
+   
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <script src="script.js"></script>
+</head>
+<body>
+ 
+  <h1 class="bg-text">HELLO</h1>
+    <div class="head">
+      <div id="i1">
+      <a href="https://dribbble.com/pakdiuhuh_lg"><i class="fab fa-dribbble-square"></i></a>
+      <a href="https://www.instagram.com/pakdi_uhuh/"><i class="fab fa-instagram-square"></i></a>
+      </div>
+        </div>
+    <video autoplay muted loop id="myVideo">
+        <source src="pakdiuhuh-logo.mp4" type="video/mp4">
+      </video>
+      <h1 id="welcome"><span id="span1">I'm</span> <span id="span2">pakdiuhuh</span></h1>
+      <hr>
+      <p style="margin-top: 150px;" class="logo-designer">Logo Designer</p>
+      <div class="all-logos">
+      <h1 class="logos">logos</h1>
+      <p class="s-logo">selected logos</p>
+      <div class="logo animate__animated">
+      <div class="flex-1">
+        <img src="images/bottle.jpg" alt="" width="540" height="540" data-tilt>
+      <img src="images/fox.jpg" alt="" width="540" height="540" data-tilt>
+    </div>
+    <div class="flex-2">
+      <img src="images/chick.jpg" alt="" width="540" height="540" data-tilt>
+      <img src="images/hera.jpg" alt="" width="540" height="540" data-tilt>
+    </div>
+    <div class="flex-3">
+        <img src="images/wolf.jpg" alt="" width="540" height="540" data-tilt>
+      <img src="images/skull-arrow.jpg" alt="" width="540" height="540" data-tilt>
+    </div>
+    <div class="flex-4">
+      <img src="images/delman.jpg" alt="" width="540" height="540" data-tilt>
+      <img src="images/eye.jpg" alt="" width="540" height="540" data-tilt>
+    </div>
+    <div class="flex-5">
+      <img src="images/girl.jpg" alt="" width="540" height="540" data-tilt>
+      <img src="images/rose-eagle.jpg" alt="" width="540" height="540" data-tilt>
+    </div>
+    <div class="flex-6">
+      <img src="images/lion.jpg" alt="" width="540" height="540" data-tilt>
+      <img src="images/raccoon.png" alt="" width="540" height="540" data-tilt>
+    </div>
+    </div>
+
+  </div>  
+  <script type="text/javascript">
+    $(document).ready(function(){ 
+ 
+        $(window).scroll(function(){
+            if ($(this).scrollTop() > 100) {
+                $('.backTop').fadeIn();
+            } else {
+                $('.backTop').fadeOut();
+            }
+        }); 
+ 
+        $('.backTop').click(function(){
+            $("html, body").animate({ scrollTop: 0 }, 600);
+            return false;
+        });
+ 
+    });
+</script>
+  <footer><p class="backTop"><i class="fas fa-arrow-circle-up"></i><span style="margin:5px; font-family: retroica;">back to top</span></p>
+
+    
+<p class="pf-2"><i class="fas fa-copyright"></i><span style="margin:5px; font-family: roboto;">Pakdiuhuh</span></p>
+</footer>  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script> <!-- Load Tilt.js library -->
+  
+</body>
+</html>
