@@ -127,6 +127,15 @@ hr {
 .flex-6 img{
     margin: 20px;
 }
+    .flex-7 img{
+    margin: 20px;
+}
+    .flex-8 img{
+    margin: 20px;
+}
+    .flex-9 img{
+    margin: 20px;
+}
 .s-logo{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: gray;
